@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil UMKM - Sate Ayam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
 
+<body class="bg-gradient-to-br from-blue-50 to-green-50 font-sans">
+
+  <div class="max-w-4xl mx-auto p-6 fade-in">
+
+    <!-- Header -->
+    <div class="bg-white shadow-lg rounded-2xl p-6 mb-6 hover:shadow-2xl transition duration-300">
+      <h1 class="text-3xl font-bold text-blue-600">Profil UMKM</h1>
+      <p class="text-gray-500">Informasi lengkap usaha</p>
+    </div>
+
+    <!-- Data UMKM -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 space-y-4 hover:shadow-2xl transition duration-300">
+
+      <div>
+        <h2 class="text-xl font-semibold text-green-600">Informasi Usaha</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-4">
+
+        <div>
+          <p class="text-gray-500">Nama UMKM</p>
+          <p class="font-semibold">Sate Ayam</p>
+        </div>
+
+        <div>
+          <p class="text-gray-500">Nama Pemilik</p>
+          <p class="font-semibold">Mamass</p>
+        </div>
+
+        <div>
+          <p class="text-gray-500">Alamat</p>
+          <p class="font-semibold">Jl Benhil Pasar Baru Barat</p>
+        </div>
+
+        <div>
+          <p class="text-gray-500">No. HP / WhatsApp</p>
+          <p class="font-semibold">086535714078</p>
+        </div>
+
+        <div>
+          <p class="text-gray-500">Email</p>
+          <p class="font-semibold">Cihuyy321@gmail.com</p>
+        </div>
+
+        <div>
+          <p class="text-gray-500">Jam Operasional</p>
+          <p class="font-semibold">08.00 - 12.45</p>
+        </div>
+
+      </div>
+
+      <div>
+        <p class="text-gray-500">Deskripsi Usaha</p>
+        <p class="font-semibold">
+          Bertujuan untuk mencari uang sekaligus memperbanyak wawasan dalam melayani pelanggan
+        </p>
+      </div>
+
+      <div>
+        <p class="text-gray-500">Kategori Usaha</p>
+        <p class="font-semibold">Menyediakan Layanan antar rumah</p>
+      </div>
+
+    </div>
+
+    <!-- Produk -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 mt-6 hover:shadow-2xl transition duration-300">
+
+      <h2 class="text-xl font-semibold text-blue-600 mb-4">Produk</h2>
+
+      <div class="border rounded-xl p-4 hover:bg-green-50 transition">
+
+        <h3 class="text-lg font-bold text-green-600">Sate Ayam</h3>
+
+        <p class="text-gray-500 mt-1">Deskripsi:</p>
+        <p class="font-medium">
+          Sate ayam terbaik dan enak yang ada di Jl Benhil Pasar Baru Barat
+        </p>
+
+        <p class="text-gray-500 mt-2">Harga:</p>
+        <p class="font-bold text-blue-600">Rp15.000 - Rp35.000</p>
+
+        <p class="text-gray-500 mt-2">Bahan:</p>
+        <p class="font-medium">Ayam segar, bahan dan bumbu masakan</p>
+
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-6">
+      <a href="https://wa.me/6286535714078" target="_blank"
+         class="inline-block bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 hover:scale-105 transition duration-300">
+         Hubungi via WhatsApp
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
